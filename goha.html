@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/png" sizes="15x15" href="./img/a-minimalist-logo-for-gocha-s-iphone-service-with-bYOgetCVSBi-fyaVk4aCHw-YCxjxjB7SEWa9BNlryL7dA-_1_.svg">
+   <link rel="icon" type="image/x-icon" href="./img/a-minimalist-logo-for-gocha-s-iphone-service-with-bYOgetCVSBi-fyaVk4aCHw-YCxjxjB7SEWa9BNlryL7dA-_1_.svg">
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+   <link rel="stylesheet" href="goha.css">
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   <title>Gocha's iPhone Service</title>
+</head>
+<body>
+   <!--=============== HEADER ===============-->
+   <header class="header">
+      <nav class="nav container">
+         <div class="nav__data">
+            <img src="./img/output-onlinepngtools (1).png" alt="Gochas's iPhone Service" width="" height="55">
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line nav__burger"></i>
+               <i class="ri-close-line nav__close"></i>
+            </div>
+         </div>
+
+         <!--=============== NAV MENU ===============-->
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li><a href="#" class="nav__link">Repair</a></li>
+               <li><a href="#" class="nav__link">Home</a></li>
+
+               <!--=============== DROPDOWN 1 ===============-->
+               <li class="dropdown__item">
+                <div class="nav__link">
+                   Store <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                </div>
+
+                <ul class="dropdown__menu">
+                   <li>
+                      <a href="https://www.google.com/maps/place/gochas.iphone.service/@41.7229742,44.7950772,17z/data=!3m1!4b1!4m6!3m5!1s0x4044738532feaff5:0x88b901fc385e387b!8m2!3d41.7229742!4d44.7950772!16s%2Fg%2F11hywc3x5_?hl=ka-GE&entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="dropdown__link">
+                         <ion-icon name="location-outline"></ion-icon> Giorgi tsabadzis 19
+                      </a>
+                   </li>
+
+                   <li>
+                      <a href="https://www.facebook.com/gochas.iphone.service" target="_blank" class="dropdown__link">
+                         <ion-icon name="logo-facebook"></ion-icon> facebook
+                      </a>
+                   </li>
+
+                   <li class="dropdown__subitem">
+                      <div class="dropdown__link">
+                         <a href="#" ></a> <ion-icon name="arrow-forward-circle"></ion-icon> More
+                      </div>
+
+                      <ul class="dropdown__submenu">
+                         <li>
+                            <a href="https://www.tiktok.com/@gochas.iphone.service" target="_blank" class="dropdown__sublink">
+                               <ion-icon name="logo-tiktok"></ion-icon>Tiktok
+                            </a>
+                         </li>
+
+                         <li>
+                            <a href="https://www.instagram.com/gochas.iphone.service/" target="_blank" class="dropdown__sublink">
+                               <ion-icon name="logo-instagram"></ion-icon>Instagram
+                            </a>
+                         </li>
+
+                         <li>
+                            <a href="mailto:iserviceuser@yahoo.com" target="_blank" class="dropdown__sublink">
+                               <ion-icon name="mail-outline"></ion-icon>Email
+                            </a>
+                         </li>
+                      </ul>
+                   </li>
+                </ul>
+             </li>
+               <!--=============== DROPDOWN 2 ===============-->
+               <li class="dropdown__item">
+                  <div class="nav__link selected-lang" id="lang-select">
+                      <img src="https://flagsapi.com/US/flat/24.png" alt="English Flag"> EN
+                      <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+              
+                  <ul class="dropdown__menu">
+                      <li onclick="changeLanguage('en')">
+                          <a href="#" class="dropdown__link">
+                              <img src="https://flagsapi.com/US/flat/24.png" alt="English Flag"> English
+                          </a>
+                      </li>
+                      <li onclick="changeLanguage('ka')" >
+                          <a href="#" class="dropdown__link">
+                              <img src="https://flagsapi.com/GE/flat/24.png" alt="Georgian Flag"> ქართული
+                          </a>
+                      </li>
+                  </ul>
+              </li>
+
+               <div class="action_wrapper">
+                  <li>
+                    <a href="#" class="nav__link">Contact <span>
+                        <button class="action"><ion-icon class="phone" name="call-outline">
+                        </ion-icon>533-33-22-34</button></span></a></li>
+               </div>
+            </ul>
+         </div>
+      </nav>
+   </header>
+
+   <div class="hero_wrapper">
+      <div class="booking_card_inner">
+          <div class="container">
+              <div class="booking_card_wrapper">
+                  <div class="booking_card">
+                      <h1>Repair Your iPhone</h1>
+                      <form>
+                          <label for="message"></label>
+                          <textarea id="message" name="message" rows="4" cols="50" placeholder="Type your message here..."></textarea>
+                      </form>
+                      <button class="btn-Repair">Send</button>
+                      <button class="btn-more">More</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+   <section class="repair-section">
+      <div class="repair-header">
+         <h2>Never take broken for an answer</h2>
+         <p>Get the instructions you need with quality repair parts and tools and the expertise of a robust community.</p>
+      </div>
+      
+      <div class="repair-cards">
+         <div class="repair-card">
+            <div class="card-image">
+               <img src="./img/istockphoto-1360296729-612x612.jpg" alt="Step-by-Step Guides">
+            </div>
+            <div class="card-content">
+               <h3>About Every iPhone</h3>
+               <p>Learn were to fix fastest with best quality.</p>
+               <a href="./repair.html" class="btn"> Fix Your iPhone Problem</a>
+            </div>
+         </div>
+
+         <div class="repair-card">
+            <img src="./img/macbook-components-service-social-card.jpg" alt="Quality Parts and Tools">
+            <div class="card-content">
+               <h3>For Every MacOS</h3>
+               <p>Precision tools and thousands of parts to get the job done, backed by our Lifetime Guarantee.</p>
+               <a href="./gochaa.html" class="btn"> Fix Your MacOS Problem</a>
+            </div>
+         </div>
+
+         <div class="repair-card">
+            <img src="./img/repairman-uses-magnifier-tweezers-repair-damaged-smartphone-close-up-photo-disassembled-smartphone.jpg" alt="Community of Fixers">
+            <div class="card-content">
+               <h3>A Community of Fixers</h3>
+               <p>No one knows how to fix everything, but everyone knows how to fix something.</p>
+               <a href="#" class="btn">Fix the World</a>
+            </div>
+         </div>
+      </div>
+    </section> 
+
+    <section id="testimonials">
+       <div class="container">
+          <h1>What Our Clients Are Saying</h1>
+          
+          <div class="testimonial-slide">
+              <blockquote>
+                  <p>გოჰა ყოველთვის ზრუნავს ჩემი ტელეფონის ან ნებისმიერი ტექნისკის გამართულობაზე და მე მას 10 დან 10 დავუწერდი ამაშ</p>
+              </blockquote>
+              <div class="testimonials-caption">
+                  <img src="./img/download.jpeg" alt="Client 2" />
+                  <p>B.GARSEVANISHVILI</p>
+              </div>
+          </div>
+          
+                    <div class="testimonial-slide">
+                        <blockquote>
+                            <p>"ასევე გოჰა ყოველთვის რწმუნდება რომ ტელეფონი რომელიც ხმარებაში მაქვს გამართულია რათა call of duty შეუფერხებლად ვითმაშოთ"</p>
+                        </blockquote>
+                        <div class="testimonials-caption">
+                            <img src="./img/download (1).jpeg" alt="Client 3" />
+                            <p>N.GARSEVANISHVILI</p>
+                        </div>
+                    </div>
+
+          <div class="testimonial-slide active">
+              <blockquote>
+                  <p>ჩემი გამოცდილება Gocha's iPhone Service _ში მასწავლის თავის დაზღვევას. გამართულმა ტექნიკამ განსაზღვა რომ მე წარმატებული სტუდენტი ვარ
+                      </p>
+              </blockquote>
+              <div class="testimonials-caption">
+                  <img src="./img/ca316b9276bbcd73f7f095705eeacd9b.jpg" alt="Client 1" />
+                  <p>M.KURTANIDZE</p>
+              </div>
+          </div>
+
+          <a class="prev" onclick="changeSlide(-1)">❮</a>
+          <a class="next" onclick="changeSlide(1)">❯</a>
+
+          <div class="navigation-dots">
+              <span class="dot active" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+      </div>
+  </section>
+  
+   <footer>
+      <div class="footerContainer">
+          <div class="socialIcons">
+              <a href="https://www.tiktok.com/@gochas.iphone.service" target="_blank" ><ion-icon name="logo-tiktok"></ion-icon></a>
+              <a href="https://www.facebook.com/gochas.iphone.service" target="_blank" ><ion-icon name="logo-facebook"></ion-icon></a>
+              <a href="https://www.instagram.com/gochas.iphone.service/" target="_blank" ><ion-icon name="logo-instagram"></ion-icon></a>
+              <a href="mailto:iserviceuser@yahoo.com" target="_blank" ><ion-icon name="mail-outline"></ion-icon></a>
+              <a href="https://www.google.com/maps/place/gochas.iphone.service/@41.7229742,44.7950772,17z/data=!3m1!4b1!4m6!3m5!1s0x4044738532feaff5:0x88b901fc385e387b!8m2!3d41.7229742!4d44.7950772!16s%2Fg%2F11hywc3x5_?hl=ka-GE&entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" >
+               <ion-icon name="location-outline"></ion-icon> </a>
+
+          </div>
+          <div class="footerNav">
+              <ul><li><a href="">Home</a></li>
+                  <li><a href="">News</a></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Contact Us</a></li>
+                  <li><a href="">our Team</a></li>
+              </ul>
+          </div>
+          
+      </div>
+      <div class="footerBottom">
+          <p>Copyright <span>&copy;2024</span> <span>Gocha's iPhone Services </span> <span>Designed by</span> <span class="designer">BaBi</span></p>
+      </div>
+  </footer>
+
+   
+  <script>
+
+// menu downlinks //
+const showMenu = (toggleId, navId) =>{
+    const toggle = document.getElementById(toggleId),
+          nav = document.getElementById(navId)
+ 
+    toggle.addEventListener('click', () =>{
+        // Add show-menu class to nav menu
+        nav.classList.toggle('show-menu')
+ 
+        // Add show-icon to show and hide the menu icon
+        toggle.classList.toggle('show-icon')
+    })
+    
+ }
+ 
+ 
+ showMenu('nav-toggle','nav-menu')
+
+// ღილაკი რიაპირ //
+document.addEventListener('DOMContentLoaded', function() {
+    // Select the Repair link in the navigation
+    const repairLink = document.querySelector('.nav__link[href="#"]');
+    
+    // Select the repair section
+    const repairSection = document.querySelector('.repair-section');
+    
+    // Add click event listener
+    repairLink.addEventListener('click', function(e) {
+        e.preventDefault(); // Prevent default anchor behavior
+        
+        // Smooth scroll to the repair section
+        repairSection.scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+ // form ფორმის მიმღები  //
+ const contactForm = document.querySelector('.booking_card form');
+const sendButton = document.querySelector('.booking_card .btn-Repair');
+
+// Add a click event listener to the send button
+sendButton.addEventListener('click', (event) => {
+  event.preventDefault(); // Prevent the default button behavior
+
+  // Get the message from the textarea
+  const message = document.getElementById('message').value;
+
+  // Send the message to the email address
+  sendEmailToRecipient(message, 'bgarsevanishvili243@gmail.com');
+
+  // Show an alert message based on the language
+  if (document.documentElement.lang === 'en') {
+    alert('Your message has been sent!');
+  } else {
+    alert('თქვენი მესიჯი გაგზავნილია!');
+  }
+});
+
+function sendEmailToRecipient(message, email) {
+  // This is a placeholder function, replace it with your actual email sending logic
+  console.log(`Sending message "${message}" to ${email}`);
+}
+
+// slider srart //
+     // Select all slides and dots
+        var slides = document.getElementsByClassName("testimonial-slide");
+        var dots = document.getElementsByClassName("dot");
+        var slideIndex = 2; // Start with the third slide
+        var slideProgress = document.querySelector('.slide-progress');
+        var autoSlideInterval;
+        var slideDuration = 5000; // 5 seconds per slide
+
+        // Initial slide setup
+        showSlide(slideIndex);
+        startAutoSlide();
+
+        // Change slide function
+        function changeSlide(n) {
+            // Clear existing interval and restart
+            clearInterval(autoSlideInterval);
+            showSlide(slideIndex += n);
+            startAutoSlide();
+        }
+
+        // Go to specific slide
+        function currentSlide(n) {
+            // Clear existing interval and restart
+            clearInterval(autoSlideInterval);
+            showSlide(slideIndex = n);
+            startAutoSlide();
+        }
+
+        // Start auto sliding
+        function startAutoSlide() {
+            // Reset progress bar
+            slideProgress.style.width = '0%';
+
+            autoSlideInterval = setInterval(function() {
+                // Animate progress bar
+                var width = 0;
+                var progressInterval = setInterval(function() {
+                    if (width >= 100) {
+                        clearInterval(progressInterval);
+                        changeSlide(1); // Move to next slide
+                    } else {
+                        width++;
+                        slideProgress.style.width = width + '%';
+                    }
+                }, slideDuration / 100);
+            }, slideDuration);
+        }
+
+        // Show specific slide
+        function showSlide(n) {
+            // Handle circular sliding
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+
+            // Hide all slides and remove active class
+            for (var i = 0; i < slides.length; i++) {
+                slides[i].classList.remove("active");
+                dots[i].classList.remove("active");
+            }
+
+            // Show current slide and set active dot
+            slides[slideIndex - 1].classList.add("active");
+            dots[slideIndex - 1].classList.add("active");
+        }
+
+        // Pause auto-slide on hover
+        document.getElementById('testimonials').addEventListener('mouseenter', function() {
+            clearInterval(autoSlideInterval);
+            slideProgress.style.width = '0%';
+        });
+
+        document.getElementById('testimonials').addEventListener('mouseleave', function() {
+            startAutoSlide();
+        });
+
+      //  language changer//
+
+        function changeLanguage(lang) 
+        {
+      const selectedLang = document.getElementById('lang-select');
+      const langText = lang === 'ka' ? 'Georgian' : 'English';
+      const flagUrl = lang === 'ka' ? 'https://flagsapi.com/GE/flat/24.png' : 'https://flagsapi.com/US/flat/24.png';
+      
+      // Update flag and text in selected language display
+      selectedLang.innerHTML = `<img src="${flagUrl}" alt="${langText} Flag"> ${lang === 'ka' ? 'KA' : 'EN'}`;
+
+      // Switch content based on language (simple example)
+      document.querySelector('h1').textContent = lang === 'ka' ? 'შეკეთება თქვენი აიფონის' : 'Repair Your iPhone';
+      // Add more elements to change based on selected language
+  }
+
+   </script>
+</body>
+</html>

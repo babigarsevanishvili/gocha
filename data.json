@@ -1,0 +1,14 @@
+{
+  "en": {
+    "repairTitle": "Repair Your iPhone",
+    "repairSubtitle": "Never take broken for an answer",
+    "contactButton": "Contact",
+    "heroMessagePlaceholder": "Type your message here..."
+  },
+  "ka": {
+    "repairTitle": "შეკეთება თქვენი აიფონის",
+    "repairSubtitle": "ნუ შეიკავებთ პასუხს",
+    "contactButton": "კონტაქტი",
+    "heroMessagePlaceholder": "აქ ჩაწერეთ თქვენი შეტყობინება..."
+  }
+}
